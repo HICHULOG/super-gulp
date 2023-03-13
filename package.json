@@ -4,5 +4,16 @@
   "description": "Learn Gulp by building an awesome development environment",
   "repository": "https://github.com/HICHULOG/super-gulp.git",
   "author": "HICHULOG <itchu92@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.21.0",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0"
+  }
 }
